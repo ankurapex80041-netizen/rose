@@ -817,11 +817,12 @@ body {
 }
 
 /* Gallery Photo Images */
-.gallery-photo {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.gallery-item img{
+    width:150px;
+    height:150px;
+    object-fit:cover;
 }
+
 
 .photo-frame {
     width: 100%;

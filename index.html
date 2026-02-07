@@ -3,12 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Happy Rose Day My Love 🌹</title>
+<title>Happy Rose Day 🌹</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<!-- Music -->
 <audio id="bgMusic" loop>
 <source src="music.mp3" type="audio/mpeg">
 </audio>
@@ -17,6 +18,7 @@
 <span class="music-icon">🔇</span>
 </button>
 
+<!-- Petals -->
 <div class="petals-container" id="petalsContainer"></div>
 
 <!-- Welcome Screen -->
@@ -33,7 +35,7 @@
 <!-- Main Content -->
 <div class="main-content" id="mainContent">
 
-<!-- Dots -->
+<!-- Navigation Dots -->
 <div class="nav-dots">
 <span class="dot active"></span>
 <span class="dot"></span>
@@ -43,7 +45,7 @@
 <span class="dot"></span>
 </div>
 
-<!-- Screen1 -->
+<!-- Screen 1 -->
 <div class="content-screen active" id="screen1">
 <h2 class="screen-heading">⏰ Moments So Far ⏰</h2>
 
@@ -57,7 +59,7 @@
 <button class="nav-btn" onclick="goToScreen(2)">Next →</button>
 </div>
 
-<!-- Screen2 -->
+<!-- Screen 2 -->
 <div class="content-screen" id="screen2">
 <h2 class="screen-heading">💌 Sweet Letter 💌</h2>
 
@@ -72,7 +74,7 @@
 <button class="nav-btn" onclick="goToScreen(3)">Next →</button>
 </div>
 
-<!-- Screen3 -->
+<!-- Screen 3 -->
 <div class="content-screen" id="screen3">
 <h2 class="screen-heading">💕 Letter For You 💖</h2>
 
@@ -85,7 +87,7 @@
 <button class="nav-btn" onclick="goToScreen(4)">Next →</button>
 </div>
 
-<!-- Screen4 -->
+<!-- Screen 4 -->
 <div class="content-screen" id="screen4">
 <h2 class="screen-heading">🌹 Why You're Special To Me 🌹</h2>
 <p>Click on the petals to discover why you're special! 💕</p>
@@ -113,24 +115,23 @@
 <button class="nav-btn" onclick="goToScreen(5)">Next →</button>
 </div>
 
-<!-- Screen5 -->
+<!-- Screen 5 -->
 <div class="content-screen" id="screen5">
-<h2 class="screen-heading">💕 My Mommyy &lt;3 💕</h2>
+<h2 class="screen-heading">💕 Noor &lt;3 💕</h2>
 
 <div class="gallery">
-<div class="gallery-item"><img src="image1.png"></div>
-<div class="gallery-item"><img src="image2.png"></div>
-<div class="gallery-item"><img src="image3.png"></div>
-<div class="gallery-item"><img src="image4.png"></div>
+
+<!-- New Added Photo -->
+<div class="gallery-item"><img src="photo5.jpg"></div>
 </div>
 
 <button class="nav-btn" onclick="goToScreen(6)">Next →</button>
 </div>
 
-<!-- Screen6 -->
+<!-- Screen 6 -->
 <div class="content-screen" id="screen6">
 <div class="final-rose-icon">🌹</div>
-<h2 class="screen-heading">Happy Rose Day Miss Rimjhim🌹 &lt;3</h2>
+<h2 class="screen-heading">Happy Rose Day Miss Rimjhim &lt;3</h2>
 <button class="nav-btn restart" onclick="restartJourney()">Start Over 🔄</button>
 </div>
 
