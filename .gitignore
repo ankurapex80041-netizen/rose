@@ -1,0 +1,9 @@
+.vscode/
+*.md
+CUSTOMIZATION_GUIDE.txt
+HOW_TO_ADD_MUSIC.txt
+HOW_TO_USE_YOUR_ROSE_PNG.txt
+ObfuscatedCode.java
+Deobfuscated.java
+DecryptionTool.java
+DeobfuscationAnalysis.md

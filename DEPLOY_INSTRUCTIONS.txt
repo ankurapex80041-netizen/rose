@@ -1,0 +1,30 @@
+HOW TO DEPLOY TO GITHUB PAGES:
+
+1. Open terminal in this folder
+
+2. Run these commands:
+   git init
+   git add .
+   git commit -m "Rose Day website"
+
+3. Create a new repository on GitHub.com:
+   - Go to github.com
+   - Click the "+" icon → "New repository"
+   - Name it something like "rose-day-website"
+   - DON'T check "Initialize with README"
+   - Click "Create repository"
+
+4. Copy the commands GitHub shows you, they'll look like:
+   git remote add origin https://github.com/YOUR_USERNAME/rose-day-website.git
+   git branch -M main
+   git push -u origin main
+
+5. Enable GitHub Pages:
+   - Go to your repo → Settings → Pages
+   - Under "Source", select "main" branch
+   - Click Save
+   
+6. Your website will be live at:
+   https://YOUR_USERNAME.github.io/rose-day-website/
+
+Note: It may take 2-5 minutes for the site to go live after enabling Pages.
